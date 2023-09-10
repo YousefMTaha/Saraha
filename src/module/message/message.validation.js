@@ -18,7 +18,7 @@ export const update = {
     userId: generalFields.id.required(),
   }).required(),
   params: Joi.object({
-    postId: generalFields.id.required(),
+    messageId: generalFields.id.required(),
   }).required(),
   query: Joi.object({}).required(),
 };
@@ -28,12 +28,12 @@ export const remove = {
     userId: generalFields.id.required(),
   }).required(),
   params: Joi.object({
-    postId: generalFields.id.required(),
+    messageId: generalFields.id.required(),
   }).required(),
   query: Joi.object({}).required(),
 };
 
-export const getAllPosts = {
+export const getAllMessages = {
   body: Joi.object({}).required(),
   params: Joi.object({}).required(),
   query: Joi.object({}).required(),

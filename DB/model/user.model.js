@@ -35,13 +35,13 @@ const userSchema = new Schema(
       unique: true,
       required: true,
     },
-    post:[{
+    message:[{
       type:Types.ObjectId,
-      ref:"post"
+      ref:"Message"
     }]
   },
   { timestamps: true }
 );
-const userModule = model("user", userSchema);
+const userModule = model("User", userSchema);
 
 export default userModule;

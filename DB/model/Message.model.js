@@ -1,5 +1,5 @@
 import { Schema, Types, model } from "mongoose";
-const postSchema = new Schema(
+const messageSchema = new Schema(
   {
     title: {
       type: String,
@@ -8,11 +8,11 @@ const postSchema = new Schema(
     content: { type: String, required: true },
     userId: {
       type: Types.ObjectId,
-      ref: "user",
+      ref: "User",
       required: true,
     },
   },
   { timestamps: true }
 );
-const postModel = model("post", postSchema);
-export default postModel;
+const messageModel = model("Message", messageSchema);
+export default messageModel;

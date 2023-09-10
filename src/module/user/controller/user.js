@@ -1,5 +1,5 @@
 import { StatusCodes } from "http-status-codes";
-import userModule from "../../../../DB/model/user.model.js";
+import userModule from "../../../../DB/model/User.model.js";
 import { ErrorClass } from "../../../utils/ErrorClass.js";
 import bcryptjs from "bcryptjs";
 
@@ -111,7 +111,7 @@ export const getProfile = async (req, res, next) => {
   const { id } = req.params;
   const user = await userModule.findById(id).populate([
     {
-      path: "post",
+      path: "message",
     },
   ]);
 
