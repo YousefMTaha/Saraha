@@ -4,7 +4,7 @@ Sarahah is a social networking service that allows users to provide feedback ano
 
 ## Features
 
-- Password encryption
+- Password hashing
 - Validation
 - Error Handling
 
