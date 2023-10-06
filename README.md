@@ -1,18 +1,18 @@
 # Saraha RESTful API
 
-Sarahah is a social networking service that allows users to provide feedback anonymously to others.
+This project is a backend implementation for a Sarahah-like anonymous messaging application built with Node.js, Express, and MongoDB.
 
 ## Features
-
+- CRUD operations for posts
+- CRUD operations for users
+- Anonymous message sending
 - Password hashing
-- Validation
+- Validation (using Joi)
 - Error Handling
 
+## EndPoints
 
-
-## Documentation
-
-[API Documentation](https://documenter.getpostman.com/view/25674968/2s9YJdX3MR)
+[EndPoints Documentation](https://documenter.getpostman.com/view/25674968/2s9YJdX3MR)
 
 
 ## Run Locally
