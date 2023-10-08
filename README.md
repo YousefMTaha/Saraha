@@ -1,6 +1,6 @@
 # Saraha RESTful API
 
-This project is a backend implementation for a Sarahah-like anonymous messaging application built with Node.js, Express, and MongoDB.
+This project is a backend implementation for a Saraha-like anonymous messaging application built with Node.js, Express, and MongoDB.
 
 ## Features
 - CRUD operations for posts 
