@@ -9,6 +9,7 @@ This project is a backend implementation for a Saraha-like anonymous messaging a
 - Password hashing
 - Validation (using Joi)
 - Error Handling
+- Status codes
 
 ## EndPoints
 
