@@ -16,8 +16,7 @@ This project is a backend implementation for a Saraha-like anonymous messaging a
 
 ## Run Locally
 
-To run this project, you will need to add environment variables to your .env file which is unpublished for security reasons,
-you can contact me if you want run locally for .env file
+To run this project, you will need to add environment variables to your .env file which is unpublished for security reasons but you can contact me for .env file after that follow these steps
 
 Clone the project
 
